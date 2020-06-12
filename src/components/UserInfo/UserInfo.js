@@ -1,9 +1,10 @@
 import React from "react"
-import ubication from "./ubication.svg"
-import calendar from "./calendar.svg"
+import { UserDescription } from "./UserDescription/UserDescription.js"
+import { FollowButton } from "./FollowButton/FollowButton.js"
 
-export function UserInfo(props){
-    const user = props.user
+export function UserInfo({ user }){
+    const { description, location, birthday } = user
+
     return(
         <div className="user-info">
             <img
@@ -16,21 +17,13 @@ export function UserInfo(props){
                         {user.name}
                         <span className="username">{user.username}</span>
                     </a>
-                <button type="button" className="follow-button">Follow</button>
+                    <FollowButton/>
                 </div>
-                <div className="description">
-                    <span>{user.description}</span>
-                    <div className="additional-info">
-                        <span>
-                            <img style={{height: 14, width: 14}} src={ubication}></img>
-                            {user.location}
-                        </span>
-                        <span>
-                            <img style={{height: 14, width: 14}} src={calendar}></img>
-                            {user.birthday}
-                        </span>
-                    </div>
-                </div>
+                <UserDescription
+                    description={description} 
+                    birthday={birthday} 
+                    location={location}
+                />
             </div>
         </div>
     )

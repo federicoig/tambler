@@ -3,8 +3,10 @@
     width: 585px;
     margin:auto;
     background-color: #0F0F0F;
-    margin-top: 6%;
+    margin-top: 7%;
     img{
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
         width: 585px;
         height: 195px;
     }
@@ -21,7 +23,7 @@
         width: 55px;
         height: 55px;
         border-radius: 50%;
-        margin: -2% 5% 10% -45%;
+        margin: -1% 5% 10% -50%;
     }
     .info{
         .wrapper{
@@ -38,15 +40,25 @@
             }
             .follow-button{
                 text-decoration: none;
+                position: absolute;
                 cursor: pointer;
                 border-radius: 2em;
                 outline: none;
-                height: 1%;
+                height: 6%;
+                right: 31%;
                 color: white;
                 background-color: #0F0F0F;           
                 border: 1px white solid;
-                font-weight: 500;
                 padding: .5em 2.5em;
+                transition: 0.3s ease;
+                &:hover{
+                    color: #0F0F0F;
+                    background-color: white;
+                }
+            }
+            .Followed{
+                color: #0F0F0F;
+                background-color: white;
             }
         }   
         .description{
