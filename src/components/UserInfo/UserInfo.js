@@ -8,6 +8,7 @@ export function UserInfo({ user }){
     return(
         <div className="user-info">
             <img
+                alt="avatar of the user profile."
                 className="avatar"
                 src={user.avatar}
             />

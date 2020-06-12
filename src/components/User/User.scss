@@ -1,4 +1,3 @@
-
 .user {
     width: 585px;
     margin:auto;
@@ -13,12 +12,11 @@
 }
 
 .user-info {
-    color: white;
-    font-family: 'Fira Sans', sans-serif;
+    color: snow;
     display:flex;
     align-items: center;
     justify-content: center;
-    padding: 4% 5% 8% 2%;
+    padding: 4% 5% 5% 2%;
     .avatar {
         width: 55px;
         height: 55px;
@@ -44,21 +42,22 @@
                 cursor: pointer;
                 border-radius: 2em;
                 outline: none;
-                height: 6%;
+                height: 5.5%;
+                font-size: 80%;
                 right: 31%;
-                color: white;
+                color: snow;
                 background-color: #0F0F0F;           
-                border: 1px white solid;
+                border: 1px snow solid;
                 padding: .5em 2.5em;
                 transition: 0.3s ease;
                 &:hover{
                     color: #0F0F0F;
-                    background-color: white;
+                    background-color: snow;
                 }
             }
             .Followed{
                 color: #0F0F0F;
-                background-color: white;
+                background-color: snow;
             }
         }   
         .description{
@@ -71,10 +70,47 @@
                 span{
                     display: flex;
                     margin-right: 15%;
+                    white-space: nowrap;
                     img{
+                        height: 14px;
+                        width: 14px;
                         filter: invert(67%) sepia(1%) saturate(0%) hue-rotate(53deg) brightness(90%) contrast(88%);
                         margin-right: 5%;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px){
+    * {
+        font-size: 106.5%;
+    }
+    .user{
+        margin-top: 0;
+        img{
+            border-radius: 0;
+        }
+    }
+    .follow-button{
+        text-align: center;
+        width: auto;
+        left: 102%;
+    }
+    .user-info{
+        .avatar{
+            margin-left: -35%;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .description{
+        .additional-info {
+            span{
+                img {
+                    height: 25px !important;
+                    width: 25px !important;
                 }
             }
         }

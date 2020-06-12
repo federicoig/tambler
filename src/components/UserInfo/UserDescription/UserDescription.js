@@ -8,11 +8,11 @@ export function UserDescription(props){
                 <span>{props.description}</span>
             <div className="additional-info">
                 <span>
-                    <img style={{height: 14, width: 14}} src={ubication}></img>
+                    <img className="icon" alt="ubication icon." src={ubication}></img>
                     {props.location}
                 </span>
                 <span>
-                    <img style={{height: 14, width: 14}} src={calendar}></img>
+                    <img className="icon" alt="calendar icon." src={calendar}></img>
                     {props.birthday}
                 </span>
             </div>

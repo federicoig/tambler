@@ -15,6 +15,7 @@ export function User(props){
     return(
     <header className="user">
         <img
+            alt="Header of the profile."
             className="user-header"
             src={props.userHeader}
         />
