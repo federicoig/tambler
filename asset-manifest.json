@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tambler/static/css/main.2612ab81.chunk.css",
+    "main.js": "/tambler/static/js/main.cb101c05.chunk.js",
+    "main.js.map": "/tambler/static/js/main.cb101c05.chunk.js.map",
+    "runtime-main.js": "/tambler/static/js/runtime-main.d45daee7.js",
+    "runtime-main.js.map": "/tambler/static/js/runtime-main.d45daee7.js.map",
+    "static/js/2.28d2fd14.chunk.js": "/tambler/static/js/2.28d2fd14.chunk.js",
+    "static/js/2.28d2fd14.chunk.js.map": "/tambler/static/js/2.28d2fd14.chunk.js.map",
+    "index.html": "/tambler/index.html",
+    "precache-manifest.6b180a95eb046db8d54e2019fd3ddec9.js": "/tambler/precache-manifest.6b180a95eb046db8d54e2019fd3ddec9.js",
+    "service-worker.js": "/tambler/service-worker.js",
+    "static/css/main.2612ab81.chunk.css.map": "/tambler/static/css/main.2612ab81.chunk.css.map",
+    "static/js/2.28d2fd14.chunk.js.LICENSE.txt": "/tambler/static/js/2.28d2fd14.chunk.js.LICENSE.txt",
+    "static/media/calendar.svg": "/tambler/static/media/calendar.11caa60b.svg",
+    "static/media/comments.svg": "/tambler/static/media/comments.6c735165.svg",
+    "static/media/like.svg": "/tambler/static/media/like.0df7f2e8.svg",
+    "static/media/repost.svg": "/tambler/static/media/repost.bdcf810a.svg",
+    "static/media/ubication.svg": "/tambler/static/media/ubication.eaf31eb9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d45daee7.js",
+    "static/js/2.28d2fd14.chunk.js",
+    "static/css/main.2612ab81.chunk.css",
+    "static/js/main.cb101c05.chunk.js"
+  ]
+}
