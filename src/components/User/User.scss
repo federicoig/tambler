@@ -1,0 +1,70 @@
+
+.user {
+    width: 585px;
+    margin:auto;
+    background-color: #0F0F0F;
+    margin-top: 6%;
+    img{
+        width: 585px;
+        height: 195px;
+    }
+}
+
+.user-info {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 5% 8% 2%;
+    .avatar {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin: -2% 5% 10% -45%;
+    }
+    .info{
+        .wrapper{
+            display: flex;
+            align-items: center;
+            .name{
+                margin: 4% 150% 5% 0;
+                .username{
+                    margin-top: 3%;
+                    display: block;
+                    font-size: 80%;
+                    color: rgb(151, 151, 151);
+                }
+            }
+            .follow-button{
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 2em;
+                outline: none;
+                height: 1%;
+                color: white;
+                background-color: #0F0F0F;           
+                border: 1px white solid;
+                font-weight: 500;
+                padding: .5em 2.5em;
+            }
+        }   
+        .description{
+            margin-top: 10%;
+            font-size: 75%;
+            .additional-info {
+                display: flex;
+                margin-top: 10%;
+                color: rgb(151, 151, 151);
+                span{
+                    display: flex;
+                    margin-right: 15%;
+                    img{
+                        filter: invert(67%) sepia(1%) saturate(0%) hue-rotate(53deg) brightness(90%) contrast(88%);
+                        margin-right: 5%;
+                    }
+                }
+            }
+        }
+    }
+}
