@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tambler/static/css/main.5399e4d3.chunk.css",
-    "main.js": "/tambler/static/js/main.f4d3857d.chunk.js",
-    "main.js.map": "/tambler/static/js/main.f4d3857d.chunk.js.map",
+    "main.css": "/tambler/static/css/main.3546adbb.chunk.css",
+    "main.js": "/tambler/static/js/main.55ff2389.chunk.js",
+    "main.js.map": "/tambler/static/js/main.55ff2389.chunk.js.map",
     "runtime-main.js": "/tambler/static/js/runtime-main.d45daee7.js",
     "runtime-main.js.map": "/tambler/static/js/runtime-main.d45daee7.js.map",
     "static/js/2.28d2fd14.chunk.js": "/tambler/static/js/2.28d2fd14.chunk.js",
     "static/js/2.28d2fd14.chunk.js.map": "/tambler/static/js/2.28d2fd14.chunk.js.map",
     "index.html": "/tambler/index.html",
-    "precache-manifest.cb63a71a6aa648f45fdba57864e9b6a6.js": "/tambler/precache-manifest.cb63a71a6aa648f45fdba57864e9b6a6.js",
+    "precache-manifest.96fe85a266618bf2ec014a6bf5717849.js": "/tambler/precache-manifest.96fe85a266618bf2ec014a6bf5717849.js",
     "service-worker.js": "/tambler/service-worker.js",
-    "static/css/main.5399e4d3.chunk.css.map": "/tambler/static/css/main.5399e4d3.chunk.css.map",
+    "static/css/main.3546adbb.chunk.css.map": "/tambler/static/css/main.3546adbb.chunk.css.map",
     "static/js/2.28d2fd14.chunk.js.LICENSE.txt": "/tambler/static/js/2.28d2fd14.chunk.js.LICENSE.txt",
     "static/media/calendar.svg": "/tambler/static/media/calendar.11caa60b.svg",
     "static/media/comments.svg": "/tambler/static/media/comments.6c735165.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d45daee7.js",
     "static/js/2.28d2fd14.chunk.js",
-    "static/css/main.5399e4d3.chunk.css",
-    "static/js/main.f4d3857d.chunk.js"
+    "static/css/main.3546adbb.chunk.css",
+    "static/js/main.55ff2389.chunk.js"
   ]
 }

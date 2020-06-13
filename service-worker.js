@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tambler/precache-manifest.cb63a71a6aa648f45fdba57864e9b6a6.js"
+  "/tambler/precache-manifest.96fe85a266618bf2ec014a6bf5717849.js"
 );
 
 self.addEventListener('message', (event) => {
