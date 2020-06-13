@@ -9,9 +9,7 @@ export function PostContent({ content }){
                 :
                 <div>
                     <p className="main-text">{maintext}<br /><a href={link}>{link}</a></p>
-                    <div className="wrapper">
-                        <img className="content-image" alt={img.alt} src={img.src}></img>
-                    </div>
+                    <img className="content-image" alt={img.alt} src={img.src}></img>
                     <p className="footer-text">{footertext}</p>        
                 </div>
             }

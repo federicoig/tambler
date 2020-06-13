@@ -14,58 +14,31 @@
 .user-info {
     color: snow;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 4% 5% 5% 2%;
     .avatar {
         width: 55px;
         height: 55px;
         border-radius: 50%;
-        margin: -1% 5% 10% -50%;
     }
     .info{
+        margin-right: 25%;
         .wrapper{
             display: flex;
-            align-items: center;
             .name{
-                margin: 4% 150% 5% 0;
                 .username{
-                    margin-top: 3%;
                     display: block;
                     font-size: 80%;
                     color: rgb(151, 151, 151);
                 }
             }
-            .follow-button{
-                text-decoration: none;
-                position: absolute;
-                cursor: pointer;
-                border-radius: 2em;
-                outline: none;
-                height: 5.5%;
-                font-size: 80%;
-                right: 31%;
-                color: snow;
-                background-color: #0F0F0F;           
-                border: 1px snow solid;
-                padding: .5em 2.5em;
-                transition: 0.3s ease;
-                &:hover{
-                    color: #0F0F0F;
-                    background-color: snow;
-                }
-            }
-            .Followed{
-                color: #0F0F0F;
-                background-color: snow;
-            }
         }   
         .description{
-            margin-top: 10%;
+            margin-top: 12%;
             font-size: 75%;
             .additional-info {
                 display: flex;
-                margin-top: 10%;
+                margin-top: 12%;
                 color: rgb(151, 151, 151);
                 span{
                     display: flex;
@@ -80,6 +53,27 @@
                 }
             }
         }
+    }
+    .follow-button{
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 2em;
+        outline: none;
+        height: 5.5%;
+        font-size: 80%;
+        color: snow;
+        background-color: #0F0F0F;           
+        border: 1px snow solid;
+        padding: .5em 2.5em;
+        transition: 0.3s ease;
+        &:hover{
+            color: #0F0F0F;
+            background-color: snow;
+        }
+    }
+    .Followed{
+        color: #0F0F0F;
+        background-color: snow;
     }
 }
 
@@ -96,23 +90,26 @@
     .follow-button{
         text-align: center;
         width: auto;
-        left: 102%;
     }
     .user-info{
         .avatar{
-            margin-left: -35%;
+            margin: 0 6% 0 4%;
             width: 80px;
             height: 80px;
         }
-    }
-    .description{
-        .additional-info {
-            span{
-                img {
-                    height: 25px !important;
-                    width: 25px !important;
+        .info{
+            margin-right: 5%;
+            .description{
+                .additional-info {
+                    span{
+                        img {
+                            height: 25px !important;
+                            width: 25px !important;
+                        }
+                    }
                 }
             }
         }
     }
+
 }

@@ -14,11 +14,10 @@ export function UserInfo({ user }){
             />
             <div className="info">
                 <div className="wrapper">
-                    <a className="name">
+                    <span className="name">
                         {user.name}
                         <span className="username">{user.username}</span>
-                    </a>
-                    <FollowButton/>
+                    </span>
                 </div>
                 <UserDescription
                     description={description} 
@@ -26,6 +25,7 @@ export function UserInfo({ user }){
                     location={location}
                 />
             </div>
+            <FollowButton/>
         </div>
     )
 }
