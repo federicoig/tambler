@@ -55,10 +55,10 @@
         }
     }
     .follow-button{
-        text-decoration: none;
         cursor: pointer;
         border-radius: 2em;
         outline: none;
+        width: 8em;
         height: 5.5%;
         font-size: 80%;
         color: snow;
@@ -70,11 +70,19 @@
             color: #0F0F0F;
             background-color: snow;
         }
+        &:active{
+            animation: translateY 0.5s ease-in;
+        }
     }
     .Followed{
         color: #0F0F0F;
         background-color: snow;
     }
+}
+
+@keyframes translateY{
+    0%{ transform: translateY(10%) }
+    100%{ transform: translateY(0%);}
 }
 
 @media (max-width: 450px){

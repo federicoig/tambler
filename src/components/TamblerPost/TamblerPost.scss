@@ -35,9 +35,11 @@
                     font-size: 125%;
                     margin-top: 6%;
                     .footer-text{
+                        width: 80%;
                         font-size: 80%;
                     }
                     .main-text{
+                        width: 80%;
                         font-size: 80%;
                         a{
                             text-decoration: none;
@@ -81,7 +83,6 @@
         border-left:1em solid transparent;
         border-right:1em solid transparent;
         text-overflow: ellipsis;
-        word-break: break-all;;
         .post-info{
             .poster-info{
                 .avatar{
@@ -93,17 +94,20 @@
                     .content{
                         font-size: 100%;
                         .footer-text{
+                            width: 90%;
                             font-size: 95%;
                         }
                         .main-text{
+                            width: 90%;
                             font-size: 95%;
                             a{
+                                word-break: break-all;
                                 text-decoration: none;
                                 color: royalblue;
                             }    
                         }
                         .content-image{
-                            width: 95%;
+                            width: 75%;
                         }
                     }
                     .post-buttons{
