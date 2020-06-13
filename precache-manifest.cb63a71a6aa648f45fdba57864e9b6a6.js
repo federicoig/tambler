@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5a9ab0f89ba7703447239b89e87174b",
+    "revision": "6a72ea88b5ed07055e787205668a70cd",
     "url": "/tambler/index.html"
   },
   {
-    "revision": "e4a8306bded9a4d156b2",
-    "url": "/tambler/static/css/main.2612ab81.chunk.css"
+    "revision": "1bb4d7f0a420e6dcff13",
+    "url": "/tambler/static/css/main.5399e4d3.chunk.css"
   },
   {
     "revision": "5bee2aa20c325f8ae3b9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tambler/static/js/2.28d2fd14.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4a8306bded9a4d156b2",
-    "url": "/tambler/static/js/main.cb101c05.chunk.js"
+    "revision": "1bb4d7f0a420e6dcff13",
+    "url": "/tambler/static/js/main.f4d3857d.chunk.js"
   },
   {
     "revision": "3683891054ebd13c87d5",
