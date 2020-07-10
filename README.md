@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-If you download the project directory, to visualize it, you can run:
+If you download the project directory, to visualize it, you have to run:
+
+### `npm install`
+
+Install the project dependencies
 
 ### `npm start`
 
